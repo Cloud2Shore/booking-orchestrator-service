@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/booking")
 public class BookingOrchestratorController {
 
-
     private final UserServiceClient userServiceClient;
 
     private final HotelServiceClient hotelServiceClient;
