@@ -9,5 +9,19 @@ public class BookingResponse {
         this.bookingRequest = bookingRequest;
     }
 
-    // Getters and Setters
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public BookingRequest getBookingRequest() {
+        return bookingRequest;
+    }
+
+    public void setBookingRequest(BookingRequest bookingRequest) {
+        this.bookingRequest = bookingRequest;
+    }
 }
